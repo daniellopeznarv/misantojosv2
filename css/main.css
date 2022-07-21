@@ -3,177 +3,6 @@
   padding: 0%; }
 
 body {
-  background: url("./imagenes/fondo1.jpg");
-  position: relative;
-  padding-bottom: 3em;
-  min-height: 100vh;
-  min-width: 100vw; }
-
-a {
-  text-decoration: none; }
-
-.header {
-  background-color: #006E7F; }
-
-.header__logo__imagen img {
-  width: 100%; }
-
-.header__menu__lista__item {
-  font-size: 25px;
-  display: inline-block;
-  margin: 15px;
-  letter-spacing: 1px; }
-
-.header__menu__lista__item a {
-  color: white !important; }
-
-.header__menu__lista {
-  list-style: none;
-  height: fit-content;
-  background-color: #006E7F;
-  margin: 0 auto;
-  font-family: 'Shadows Into Light'; }
-
-.divheader__menu__lista {
-  background-color: #006E7F;
-  font-family: 'Shadows Into Light';
-  font-size: 25px;
-  margin: none; }
-
-li a:hover {
-  text-decoration: underline;
-  color: black !important; }
-
-h2 {
-  color: white;
-  font-family: 'Shadows Into Light';
-  text-decoration: underline;
-  font-weight: bold;
-  font-size: 40px;
-  padding: 20px;
-  text-align: left;
-  margin-left: 80px; }
-
-#imagen_pizza {
-  width: 500px;
-  height: 500px;
-  margin-left: 100px; }
-
-body {
-  width: 100%;
-  height: fit-content; }
-
-.flex_container {
-  margin: 10px;
-  padding: 20px;
-  font-size: 35px;
-  text-align: justify;
-  font-family: 'Shadows Into Light';
-  display: flex; }
-
-.flex_container_texto {
-  margin-left: 40px; }
-
-.p {
-  text-align: center;
-  margin-top: 10px;
-  font-weight: bold;
-  text-decoration: underline; }
-
-.footer {
-  background-color: #006E7F;
-  height: fit-content;
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
-
-.divfooter {
-  width: 200px; }
-
-.footer__lista img {
-  width: 50px;
-  margin-left: 5px; }
-
-.footer__lista {
-  list-style: none;
-  height: fit-content; }
-
-.footeritem a {
-  color: black !important; }
-
-.footeritem:hover {
-  color: black; }
-
-#imagen_helado {
-  width: 500px;
-  height: 500px;
-  margin-left: 100px; }
-
-#imagen_pizza2 {
-  width: 500px;
-  height: 500px;
-  margin-left: 100px; }
-
-.botonpedidos {
-  background-color: #006E7F;
-  border-color: #006E7F; }
-
-.botonpedidos:hover {
-  background-color: #006E7F; }
-
-#imagen_eventos {
-  width: 400px;
-  height: 400px;
-  margin-left: 100px;
-  padding: 30px; }
-
-.flex_container_contacto {
-  padding: 20px;
-  font-size: 20px;
-  text-align: justify;
-  font-family: 'Shadows Into Light';
-  display: flex;
-  justify-content: center; }
-
-.h2__contacto {
-  color: white;
-  font-family: 'Shadows Into Light';
-  text-decoration: underline;
-  font-weight: bold;
-  font-size: 40px;
-  text-align: center; }
-
-.h2__contacto2 {
-  color: white;
-  font-family: 'Shadows Into Light';
-  text-decoration: underline;
-  text-align: center; }
-
-.submit {
-  margin-left: 170px; }
-
-.container_mapa {
-  margin-left: 60px; }
-
-@media screen and (min-width: 200px) {
-  .wide {
-    grid-column: span 2; }
-  .tall {
-    grid-row: span 2; } }
-
-img {
-  width: 100%;
-  object-fit: contain; }
-
-.layout {
-  display: grid;
-  grid-template-areas: 'header header header header' 'main main main aside' 'footer footer footer footer'; }
-
-* {
-  margin: 0%;
-  padding: 0%; }
-
-body {
   background: url("../imagenes/fondo1.jpg");
   position: relative;
   padding-bottom: 3em;
@@ -186,9 +15,6 @@ a {
 .header {
   background-color: #006E7F; }
 
-.header__logo__imagen img {
-  width: 100%; }
-
 .header__menu__lista__item {
   font-size: 25px;
   display: inline-block;
@@ -214,6 +40,20 @@ a {
 li a:hover {
   text-decoration: underline;
   color: black !important; }
+
+@media screen and (min-width: 200px) {
+  .wide {
+    grid-column: span 2; }
+  .tall {
+    grid-row: span 2; } }
+
+img {
+  width: 100%;
+  object-fit: contain; }
+
+.layout {
+  display: grid;
+  grid-template-areas: 'header header header header' 'main main main aside' 'footer footer footer footer'; }
 
 h2 {
   color: white;
@@ -275,16 +115,6 @@ body {
 .footeritem:hover {
   color: black; }
 
-#imagen_helado {
-  width: 500px;
-  height: 500px;
-  margin-left: 100px; }
-
-#imagen_pizza2 {
-  width: 500px;
-  height: 500px;
-  margin-left: 100px; }
-
 .botonpedidos {
   background-color: #006E7F;
   border-color: #006E7F; }
@@ -292,7 +122,7 @@ body {
 .botonpedidos:hover {
   background-color: #006E7F; }
 
-#imagen_eventos {
+.imagen_eventos {
   width: 400px;
   height: 400px;
   margin-left: 100px;
@@ -325,17 +155,3 @@ body {
 
 .container_mapa {
   margin-left: 60px; }
-
-@media screen and (min-width: 200px) {
-  .wide {
-    grid-column: span 2; }
-  .tall {
-    grid-row: span 2; } }
-
-img {
-  width: 100%;
-  object-fit: contain; }
-
-.layout {
-  display: grid;
-  grid-template-areas: 'header header header header' 'main main main aside' 'footer footer footer footer'; }

@@ -1,0 +1,31 @@
+.footer {
+    background-color: #006E7F;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.divfooter {
+    width: 200px;
+}
+
+.footer__lista img {
+    width: 50px;
+    margin-left: 5px;
+
+}
+
+.footer__lista {
+    list-style: none;
+    height: fit-content;
+}
+
+.footeritem a {
+    color: black !important;
+}
+
+.footeritem:hover {
+    color: black;
+
+}

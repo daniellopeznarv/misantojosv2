@@ -97,6 +97,7 @@ body {
 .flex_container {
     /*Permite modificar los campos del flexcontainer*/
     margin: 10px;
+
     padding: 20px;
     font-size: 35px;
     text-align: justify;
@@ -150,21 +151,7 @@ body {
 
 }
 
-/* --------------- CSS Menú: Page ----------------- */
-
-#imagen_helado {
-    width: 500px;
-    height: 500px;
-    margin-left: 100px;
-}
-
 /* --------------- CSS Menú: Delivery-pickup ----------------- */
-
-#imagen_pizza2 {
-    width: 500px;
-    height: 500px;
-    margin-left: 100px;
-}
 
 .botonpedidos {
     background-color: #006E7F;
@@ -177,7 +164,7 @@ body {
 
 /* --------------- CSS Menú: Eventos ----------------- */
 
-#imagen_eventos {
+.imagen_eventos {
     width: 400px;
     height: 400px;
     margin-left: 100px;
@@ -222,24 +209,6 @@ body {
 }
 
 /* --------------- CSS Grilla Menú ----------------- */
-/* .grilla__item{
-    border: solid 1px rgb(47, 95, 79);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.grilla{
-    width: 40%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, auto));
-    grid-auto-rows: minmax(250px, auto);
-    gap: 20px;
-    grid-auto-flow: dense;
-} */
-
 @media screen and (min-width: 200px) {
     .wide {
         grid-column: span 2;
