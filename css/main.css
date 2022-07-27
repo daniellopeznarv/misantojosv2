@@ -123,10 +123,9 @@ body {
   background-color: #006E7F; }
 
 .imagen_eventos {
-  width: 400px;
-  height: 400px;
-  margin-left: 100px;
-  padding: 30px; }
+  width: 80%;
+  height: 80%;
+  margin-left: 50px; }
 
 .flex_container_contacto {
   padding: 20px;
