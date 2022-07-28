@@ -115,6 +115,9 @@ body {
 .footeritem:hover {
   color: black; }
 
+.tamano_form {
+  max-width: auto; }
+
 .botonpedidos {
   background-color: #006E7F;
   border-color: #006E7F; }
