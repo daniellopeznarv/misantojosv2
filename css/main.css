@@ -130,29 +130,32 @@ body {
   margin: 50px; }
 
 .flex_container_contacto {
-  padding: 20px;
-  font-size: 20px;
-  text-align: justify;
-  font-family: 'Shadows Into Light';
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  text-align: center; }
+
+.contacto_form {
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light'; }
+
+.col-12 {
+  padding-bottom: 15px; }
+
+.form-control {
+  width: 80%; }
+
+.mapa {
+  width: 90%; }
 
 .h2__contacto {
   color: white;
   font-family: 'Shadows Into Light';
   text-decoration: underline;
   font-weight: bold;
-  font-size: 40px;
-  text-align: center; }
-
-.h2__contacto2 {
-  color: white;
-  font-family: 'Shadows Into Light';
-  text-decoration: underline;
-  text-align: center; }
+  font-size: 40px; }
 
 .submit {
   margin-left: 170px; }
-
-.container_mapa {
-  margin-left: 80px; }
